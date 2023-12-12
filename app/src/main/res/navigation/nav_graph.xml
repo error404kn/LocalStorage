@@ -11,20 +11,13 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
-            android:id="@+id/action_profileFragment_to_editProfileFragment8"
+            android:id="@+id/action_profileFragment_to_editProfileFragment2"
             app:destination="@id/editProfileFragment"
-            app:popUpTo="@id/profileFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/editProfileFragment"
         android:name="com.example.myapplication.EditProfileFragment"
         android:label="fragment_edit_profile"
-        tools:layout="@layout/fragment_edit_profile" >
-        <action
-            android:id="@+id/action_editProfileFragment_to_profileFragment6"
-            app:destination="@id/profileFragment"
-            app:popUpTo="@id/editProfileFragment"
-            app:popUpToInclusive="true" />
-    </fragment>
+        tools:layout="@layout/fragment_edit_profile" />
 </navigation>
